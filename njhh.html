@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&display=swap');
+         @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&family=Ubuntu:wght@300&display=swap');
+      body {
+        margin: 0px;
+        padding: 0px;
+        background-color: #17141d;
+        color: white;
+        font-family: 'DM Mono', monospace;
+      }
+     .card-list {
+        display: flex;
+        padding: 3rem;
+        
+        /* position: relative;
+        flex-direction: row;
+        flex-wrap: no-wrap;   */
+      }
+
+      .card {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 350px;
+        width: 400px;
+        min-width: 250px;
+        max-width: 350px;
+        border-radius: 16px;
+        padding: 1.5rem;
+        background: #17141d;
+        box-shadow: -15px 0 30px #000;
+        transition-property: all;
+        transition-duration: 0.2sec;
+        transition-timing-function: ease-in-out;
+      }
+
+       .card:hover {
+        transform: translateY(-25px);
+       }
+       .card:hover~.card{
+            transform: translateX(10px);
+       }
+       .card-author p{
+          font-family: 'Ubuntu Condensed', sans-serif;
+          font-size: 19px;
+          line-height: 1.3;
+          font-weight: 100;
+       }
+       
+    </style>
+  </head>
+  <body>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+    <section class="card-list">
+      
+     <article class="card">
+        <header class="card-header">
+          <p>May 20th 2020</p>
+          <h2>Himalayan Fever is the best travel portal</h2>
+        </header>
+      
+        <div class="card-author">
+             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum repellendus adipisci voluptates. Placeat, iusto.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <header class="card-header">
+          <p>June 25th 2020</p>
+          <h2>The Rajgundha dventure is cool.</h2>
+        </header>
+        
+        <div class="card-author">
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum repellendus adipisci voluptates. Placeat, iusto.</p>
+     </div>
+      </article>
+
+      <article class="card">
+        <header class="card-header">
+          <p>July 27th 2020</p>
+          <h2>Bir Billing Paragliding is cool.</h2>
+        </header>
+        
+        <div class="card-author">
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum repellendus adipisci voluptates. Placeat, iusto.</p>
+     </div>
+      </article>
+
+      <article class="card">
+        <header class="card-header">
+          <p>Sep. 20th 2020</p>
+          <h2>Welcome to the Himalayan Fever</h2>
+        </header>
+     
+        <div class="card-author">
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum repellendus adipisci voluptates. Placeat, iusto.</p>
+     </div>
+        
+      </article>
+
+      <article class="card">
+          <header class="card-header">
+            <p>May 20th 2020</p>
+            <h2>Himalayan Fever is the best travel portal</h2>
+          </header>
+        
+          <div class="card-author">
+               <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum repellendus adipisci voluptates. Placeat, iusto.</p>
+          </div>
+        </article>
+  
+        <article class="card">
+          <header class="card-header">
+            <p>June 25th 2020</p>
+            <h2>The Rajgundha dventure is cool.</h2>
+          </header>
+          
+          <div class="card-author">
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum repellendus adipisci voluptates. Placeat, iusto.</p>
+       </div>
+        </article>
+  
+    </section>
+  </body>
+</html>
